@@ -1,0 +1,27 @@
+.headerin{
+    align-items:center;
+    background-color:#4cc9f0;
+    padding:1px;
+    position:sticky;
+    width:100%;
+    top:0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.headerin_name{
+    align-content:center;
+    padding-left:50px;
+    color:black;
+}
+.header_logout{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right:20px;
+}
+.logout{
+    font-weight:bold;
+    padding-right:5px;
+}

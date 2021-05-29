@@ -1,0 +1,135 @@
+.eo{
+    /* background-color:green; */
+}
+.eo_in{
+    /* background-color:red; */
+    margin-left:100px;
+}
+.eo_box{
+    box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.75);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+.eo_header{
+    width:90%;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+}
+.eo_header_name{
+    color:#4cc9f0;
+}
+.eo_button{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    background-color: #4cc9f0;
+    color:black;
+    border-color: white;
+}
+
+.eo_refresh{
+    padding:5px;
+}
+.eo{
+    width:90%;
+    padding:10px;
+    background-color:white;
+    
+    top:0;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    height:470px;
+}
+.eo_body{
+    /* background-color:pink; */
+    width:90%;
+    margin-bottom:30px;
+    padding:20px;
+    border-left:8px solid #4cc9f0;
+    background-color: #caf0f8;
+    /* a4161a */
+}
+
+.eo_body_head{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.eo_body_sidebody{
+    margin-bottom: 10px;
+}
+.eo_body_head_status{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+.eo_time{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.eo_time_pick{
+    display:flex;
+    flex-direction:column;
+}
+.eo_time_book{
+    display:flex;
+    flex-direction:column;
+    padding-right:140px;
+    
+}
+.eo_body_sidehead{
+    font-weight:bold;
+    color:#0d41e1;
+}
+.eo_body_sidehead1{
+    /* font-weight:bold;
+    color:#0d41e1; */
+    padding-right:400px;
+}
+.eo_execute_button{
+    background-color:#4cc9f0;
+    
+}
+.app {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+  .popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0,0,0, 0.5);
+  }
+  .popup_inner {
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    top: 20%;
+    bottom: 8%;
+    margin: auto;
+    background: white;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+  .cancel{
+      padding:5px;
+      padding-left:580px;
+  }

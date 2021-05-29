@@ -1,0 +1,14 @@
+.header{
+    align-items:center;
+    background-color:#4cc9f0;
+    padding:1px;
+    position:sticky;
+    width:100%;
+    top:0px;
+
+}
+.header_name{
+    align-content:center;
+    padding-left:50px;
+    color:black;
+}
